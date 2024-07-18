@@ -6,7 +6,7 @@
 }
  
 body {
-    background-color: #000;
+    background-color:rgb(173, 216, 230);
     height: 100vh;
 }
  
@@ -23,7 +23,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #0715b7;
+    background-color:  #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -43,42 +43,42 @@ body {
     margin: 0 auto;
 }
 .col-1 {
-    background-color: #006B6B;
+   
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF;
 }
 
 .col-2 {
-    background-color: #008888;
+    
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF; 
 }
 
 .col-3 {
-    background-color: #008888;
+    
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF; 
 }
 
 .col2-1 {
-    background-color: #006B6B;
+    
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF;
 }
 
 .col2-2 {
-    background-color: #008888;
+
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF; 
 }
 
 .col2-3 {
-    background-color: #008888;
+   
     width: 50%;
     padding: 0.6rem 1.2rem;
     color: #FFF;
@@ -101,10 +101,35 @@ body {
     opacity: 0;
     transition: .5s;
 }
- 
+.overlay:hover {
+    opacity: 1;
+    transform: scale(0.9);
+    box-shadow: 0 0 20px #ffffff78;
+
+}
 .overlay2:hover {
     opacity: 1;
+    transform: scale(0.9);
+    box-shadow: 0 0 20px #ffffff78;
+
 }
+.flex-container ,.txt-sobre h1{
+    text-align: center;
+}
+
+.sobre .txt-sobre ul li a{
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+    text-decoration: none; /* Remove o sublinhado */
+}
+.sobre .txt-sobre ul {
+    list-style: none; /* Remove os pontos de item */
+}
+
 .sobre .txt-sobre2 {
     color: #fff;
 }
