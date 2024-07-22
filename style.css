@@ -366,6 +366,11 @@ section.especiliadades .flex {
     font-size: 70px;
     color: #0715b7;
 }
+
+.especiliadades .interface h4{
+    color: #fff;
+    text-align:center;
+}
  
 .especiliadades .especialidades-box h3 {
     font-size: 28px;
@@ -620,7 +625,7 @@ footer .line-footer p a {
         padding: 80px 8%;
     }
  
-    .img-port {
+    section.portfolio .interface .flex .img-port {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
