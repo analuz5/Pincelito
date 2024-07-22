@@ -24,13 +24,21 @@ body {
     font-size: 18px;
     font-weight: 600;
     background-color:  #fff;
+    color: #0715b7;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    margin: 1rem;
 }
- 
-
+header .interface .logo img{
+    height: 5rem;
+    border-radius: 3rem;
+}
+.txt-topo-site img{
+    height: 20rem;
+    margin: 40px 0;
+}
 
 
 
@@ -43,10 +51,10 @@ body {
     margin: 0 auto;
 }
 .col-1 {
-   
     width: 50%;
     padding: 0.6rem 1.2rem;
-    color: #FFF;
+    border-radius: 20px;
+    transition: .2s;
 }
 
 .col-2 {
@@ -81,9 +89,10 @@ body {
    
     width: 50%;
     padding: 0.6rem 1.2rem;
-    color: #FFF;
-     
+    color: #FFF;     
 }
+
+
 .overlay2 { /*Conheça nossa instituição de ensino */
     position: absolute;
     top: 0;
@@ -119,6 +128,15 @@ body {
 
 .sobre .txt-sobre ul li a{
     text-align: center;
+    color: #0715b7;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+    text-decoration: none; /* Remove o sublinhado */
+}
+.sobre .txt-sobre ul li a:hover{
+    text-align: center;
     color: #FFF;
     font-size: 20px;
     font-weight: 300;
@@ -151,6 +169,10 @@ body {
 }
 .sobre .txt-sobre2 {
     color: #fff;
+}
+
+.interface .menu-desktop a{
+    color: #0715b7;
 }
 
 
@@ -293,6 +315,7 @@ section.topo-do-site .flex {
  
 .topo-do-site .txt-topo-site h1 span {
     color:#0715b7;
+    margin: 40px 0;
 }
  
 .topo-do-site .txt-topo-site p {
@@ -303,6 +326,7 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    width: 1rem;
 }
  
  
@@ -402,18 +426,33 @@ section.portfolio .flex {
 }
  
 .img-port {
-    width: 360px;
-    height: 460px;
-    background-size: cover;
     background-position: 100% 0%;
-    transition: 8s;
     cursor: pointer;
-    border-radius: 40px;
     position: relative;
+    
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
 }
  
+
+/*.especiliadades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+ 
+.especiliadades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}*/
 .img-port:hover {
-    background-position: 100% 100%;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
 }
  
 .overlay {
