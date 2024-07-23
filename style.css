@@ -13,6 +13,7 @@ body {
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    margin-bottom: -3rem;
 }
  
 .flex {
@@ -36,8 +37,8 @@ header .interface .logo img{
     border-radius: 3rem;
 }
 .txt-topo-site img{
-    height: 20rem;
-    margin: 40px 0;
+    height: 15rem;
+    margin: -1;
 }
 
 
@@ -183,6 +184,7 @@ h2.titulo {
     color: #fff;
     font-size: 38px;
     text-align: center;
+    margin: 1rem ;
 }
  
 h2.titulo span {
@@ -311,18 +313,22 @@ section.topo-do-site .flex {
     color: #fff;
     font-size: 42px;
     line-height: 40px;
+    margin-top: 1rem;
 }
  
 .topo-do-site .txt-topo-site h1 span {
     color:#0715b7;
     margin: 40px 0;
+    font-size:  2.5rem;
 }
  
 .topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
+    font-size: 2rem;
+    margin-top: 1rem;
 }
- 
+
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -405,18 +411,20 @@ section.sobre .flex {
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
+    font-size: 1rem;
 }
  
 .btn-social button {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #0715b7;
-    font-size: 22px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:  #fff;
+    color: #0715b7;
+    border: 0;
+    border-radius: 30px;
     cursor: pointer;
-    margin: 0 5px;
     transition: .2s;
+    margin: 1rem;
 }
  
 /* ESTILO DO PORTFÓLIO */
@@ -424,7 +432,6 @@ section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
- 
 section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
@@ -441,23 +448,30 @@ section.portfolio .flex {
     margin-top: 45px;
     transition: .2s;
 }
- 
 
-/*.especiliadades .especialidades-box {
-    color: #fff;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: .2s;
+
+section.portfolio .flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: 0 auto; /* Centraliza o container */
 }
- 
-.especiliadades .especialidades-box:hover {
+
+section.portfolio .img-port2 {
+    background-position: 100% 0%;
+    cursor: pointer;
+    position: relative;
+    padding: 20%;
+    border-radius: 20px;
+    margin: 15px; /* Espaçamento entre as imagens */
+    transition: 0.2s;
+    flex: 1 1 30%; /* Cada imagem ocupa 30% da largura disponível */
+    max-width: 300px; /* Tamanho máximo das imagens */
+}
+
+.img-port2:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff78;
-}*/
-.img-port:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff78;
 }
  
 .overlay {
@@ -466,7 +480,6 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000b8;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -500,13 +513,17 @@ form {
 form input,
 form textarea {
     width: 100%;
-    background-color: #242424;
+    background-color: #fff;
     border: 0;
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #fff;
+    color:#0715b7;
     font-size: 18px;
+}
+form input,
+form textarea, ::placeholder{
+    color: #0715b7;
 }
  
 form textarea {
@@ -517,17 +534,42 @@ form textarea {
 form .btn-enviar {
     margin-top: 20px;
     text-align: center;
-}
- 
-form .btn-enviar input {
-    width: 120px;
-    background-color:#0715b7;
-    color: #000;
-    font-weight: 700;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0715b7;
+    border: 0;
+    border-radius: 30px;
     cursor: pointer;
     transition: .2s;
 }
  
+form .btn-enviar input {
+    width: 120px;
+    background-color:#fff;
+    color: #0715b7;
+    font-weight: 43rem;
+    cursor: pointer;
+    transition: .2s;
+}
+ 
+/* ESTILO DO MAPA */
+.map-box {
+    display: flex;
+    left: 34%;
+    position: relative;
+    width: 37rem;
+    height: 31rem;
+    background-color: #FFF;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+}
+
 /* ESTILO DO RODAPÉ */
  
 footer {
@@ -570,6 +612,7 @@ footer .line-footer p a {
     h2.titulo {
         font-size: 34px;
         line-height: 30px;
+        margin: 1rem;
     }
  
     /* CABEÇALHO */
@@ -625,7 +668,7 @@ footer .line-footer p a {
         padding: 80px 8%;
     }
  
-    section.portfolio .interface .flex .img-port {
+    section.portfolio .interface .flex2 .img-port2 {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
