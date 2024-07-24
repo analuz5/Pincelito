@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+body {
+    background-color:rgb(173, 216, 230);
+    height: 100vh;
+}
+ 
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: -3rem;
+}
+ 
+.flex {
+    display: flex;
+}
+ 
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:  #fff;
+    color: #0715b7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 1rem;
+}

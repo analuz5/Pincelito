@@ -436,17 +436,13 @@ section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
 }
- 
-.img-port {
-    background-position: 100% 0%;
+section.topo-do-site2 .flex-container .interface .img-port {
     cursor: pointer;
     position: relative;
-    
-    color: #fff;
-    padding: 40px;
+    padding: 20%; /* Aumentei o padding para aumentar o comprimento da imagem */
     border-radius: 20px;
-    margin-top: 45px;
-    transition: .2s;
+    transition: 0.2s;
+    margin-right: 0rem; /* Exemplo de margem entre as imagens */
 }
 
 
